@@ -2,7 +2,7 @@
 
 **Last Updated:** October 16, 2026
 
-By installing and using the **"PMBot for Jira"** application (hereinafter, "the Application") in your Atlassian Jira instance, you agree to these terms. This is an independently developed tool for private distribution provided "as is" to facilitate project management.
+By installing and using the **"Telegram PMBot"** application (hereinafter, "the Application") in your Atlassian Jira instance, you agree to these terms. This is an independently developed tool provided "as is" to facilitate project management.
 
 ## 1. Description of Service
 The Application acts as a bridge between the Atlassian Jira API and the Telegram API, enabling users to receive assignment notifications, report progress, view executive summaries, and transition task statuses directly from a Telegram chat. The platform operates under a multi-tenant architecture, allowing a single user to receive notifications from multiple Jira projects or instances within a single Telegram account.
@@ -26,7 +26,7 @@ To allow a single Telegram account to connect to multiple Jira boards, we use Go
 The content of your tasks (titles, descriptions, progress comments, and assignee names) travels in encrypted form between Jira, our GCP proxy, and Telegram. **GCP does not store, log, or retain the content of your messages or the information from your tickets.** The proxy acts exclusively as a real-time conduit. The developer and creator of the Application **has no access** to your Jira tickets, comment history, user credentials, or Telegram conversations.
 
 ## 3. Limitation of Liability
-Use of the Application is at the sole risk and responsibility of the user or installing entity. As this is not a public commercial product on the Atlassian Marketplace, no explicit guarantees of uninterrupted availability (SLA), corrective maintenance, or 24/7 technical support are offered.
+Use of the Application is at the sole risk and responsibility of the user or installing entity. While standard customer support is provided via our designated support channel, no explicit guarantees of uninterrupted 24/7 availability (SLA) or corrective maintenance are offered.
 
 - **Third-Party Dependencies:** The continuous operation of PMBot depends on the stability and availability of the Atlassian, Telegram, and Google Cloud Platform APIs. PMBot is not responsible for delays or lost notifications resulting from outages in these external services.
 - **Handling of Sensitive Information:** Because the Application transmits summaries via Telegram (a third-party messaging application), it is the sole responsibility of the user and the administering Jira organization to avoid transmitting passwords, credentials, financial data, or highly confidential personal information through the bot's reports.
